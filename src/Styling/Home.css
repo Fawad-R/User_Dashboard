@@ -1,0 +1,8 @@
+.HomeFlex
+{
+    display: flex;
+}
+.HomeNavbar
+{
+    justify-items:flex-start;
+}

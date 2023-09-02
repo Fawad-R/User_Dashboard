@@ -1,0 +1,228 @@
+.CardFlex {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.CardFlexLeft {
+  width: 30%;
+}
+
+.CardFlexLeft h1 {
+  font-weight: 500;
+}
+
+.Searchbar_Main {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Searchbar {
+  width: 50%;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  margin: 0%;
+  padding: 0% 2%;
+  display: flex;
+  border: 1px solid #bdbcc1;
+}
+
+.Searchbar input {
+  background-color: #f7f7f7;
+  width: 98%;
+  border: none;
+  outline: none;
+}
+
+.AddBtn {
+  background-color: #0081ff;
+  color: white;
+  width: 120px;
+  text-align: center;
+  padding: 0.5%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FilterBtn {
+  border: 1px solid;
+  text-align: center;
+  width: 120px;
+  padding: 1%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tdElement {
+  color: black;
+  padding: 0.6% 0%;
+}
+
+.trElement {
+  background-color: #f7f7f7;
+  border-radius: 20px;
+}
+
+.trElement1 {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.trElement:hover,
+.trElement1:hover {
+  background-color: #e0f0ff;
+  cursor: pointer;
+}
+
+.tdElementHead {
+  padding: 1% 0%;
+  margin: 0%;
+}
+
+.tdElementActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tdElementActions_Action {
+  padding: 1.5%;
+  border-radius: 20px;
+}
+
+.tdElementActions_Action:hover {
+  cursor: pointer;
+  background-color: #0080ff;
+  color: white;
+}
+
+.tdElementPaid {
+  padding: 4px 10px;
+  background-color: #cdecf6;
+  color: #20c9ac;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.tdElementPending {
+  padding: 4px 10px;
+  background-color: #f8e4df;
+  color: #fc3400;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.tdElementHead_Flexes {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1160px) {
+  .CardFlex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .CardFlexLeft {
+    width: 100%;
+  }
+
+  .Searchbar_Main {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .AddBtn,
+  .FilterBtn {
+    width: 100%;
+    width: 120px;
+    margin-top: 1rem;
+  }
+
+  .Searchbar {
+    width: 60%;
+  }
+}
+
+@media (max-width: 760px) {
+  .CardFlex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .CardFlexLeft {
+    width: 100%;
+  }
+
+  .Searchbar_Main {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  #sliderBtn {
+    display: block;
+  }
+
+  .AddBtn,
+  .FilterBtn {
+    width: 100%;
+    width: 100px;
+    margin-top: 1rem;
+  }
+
+  .Searchbar {
+    width: 50%;
+  }
+  .mainCard0
+  {
+    width: 100vw;
+  }
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+table {
+  table-layout: fixed;
+}
+
+.table-auto td,
+.table-auto th {
+  width: 16.66%; 
+  max-width: 150px; 
+}
+
+
+.tdElementActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.tdElementActions_Action {
+  padding: 3%;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.csvData{
+  box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e2e8f0;
+    text-align: center;
+    padding: 8px;
+}
+
+@media (max-width: 760px) {
+  .tdElementActions {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+}
+

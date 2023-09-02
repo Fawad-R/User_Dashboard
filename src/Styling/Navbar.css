@@ -1,0 +1,58 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  
+  .Navbar button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .Sidebar {
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+  }
+  
+  .Sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Sidebar li {
+    margin-bottom: 1rem;
+  }
+  
+  .Sidebar a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  @media (max-width: 968px) {
+    .Navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2%;
+    }
+  
+    #sliderBtn {
+      display: block;
+    }
+  
+    #navbarToggle {
+      display: block;
+    }
+  
+    #navbar {
+      display: none;
+    }
+  
+    #navbar.active {
+      display: block;
+    }
+  }
+  
